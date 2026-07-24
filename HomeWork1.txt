@@ -1,0 +1,41 @@
+1.Find Largest of Three Numbers
+
+2.Write a C program to check whether a student is pass or fail.(pass >=35)
+
+3.Check Leap Year
+
+4.Check Divisible by 5
+
+5.Write a C program to check if a number is greater than 100.
+
+6.Write a C program to find the largest of three numbers.
+
+7.Write a C program to check whether a number is:
+
+Positive
+Negative
+Zero
+
+8.Write a C program to calculate a student's division.
+
+Marks ≥ 60 → First Division
+Marks ≥ 45 → Second Division
+Marks ≥ 33 → Third Division
+Otherwise → Fail
+
+9.   Write a C program to display the day of the week using a number.
+
+1 → Monday
+2 → Tuesday
+3 → Wednesday
+4 → Thursday
+5 → Friday
+6 → Saturday
+7 → Sunday
+
+
+
+&& 
+
+||
+
