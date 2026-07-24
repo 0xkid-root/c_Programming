@@ -1,23 +1,42 @@
 #include <stdio.h>
 
 
-int main(){
+// int main(){
 
-    int num = 58392;
-    int remainder;
-    int smallest = 9;
+//     int num = 58392;
+//     int remainder;
+//     int smallest = 9;
     
-    while(num > 0){
-        remainder = num %10; 
+//     while(num > 0){
+//         remainder = num %10; 
         
-        if(remainder < smallest){ 
-            smallest = remainder;
-        }
-        num = num/10 ;
-    }
+//         if(remainder < smallest){ 
+//             smallest = remainder;
+//         }
+//         num = num/10 ;
+//     }
 
-    printf("Smallest Digit is %d", smallest);
+//     printf("Smallest Digit is %d", smallest);
+// }
+
+write a c program  to find the average of elemnts in an array ?
+
+int arrar[] = {20,30,40,50,70};
+int size = 5;
+int arr[5] = {20,30,40,50,70};
+
+int i,sum = 0;
+float average;
+
+for(i=0;i<size;i++){
+    sum = sum + arr[i];
 }
+
+average = sum/size;
+
+printf("Sum of Arrary Elemets %d\n", sum);
+printf("Average of Arrary Elemets %f\n", average);
+
 
 
 
