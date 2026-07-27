@@ -19,6 +19,32 @@
 //     printf("Smallest Digit is %d", smallest);
 // }
 
+
+
+elments = n
+
+last index =max - 1;
+
+int arr[5] ={50,40,30,20,10};
+
+arr[0] = 50;
+arr[1] = 40;
+arr[2] = 30;
+arr[3] = 20;
+arr[4] = 10;
+jitne elemnt plus +1 == 5 +1 = 6 last index is 6 
+
+last idnex = 4 
+arrary elements = 5 -1 = 4
+
+arrary n elements = = 
+last index = n - 1;
+
+
+
+
+
+
 write a c program  to find the average of elemnts in an array ?
 
 int arrar[] = {20,30,40,50,70};

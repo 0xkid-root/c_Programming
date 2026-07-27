@@ -27,7 +27,16 @@ int main(){
 }
 
 
+// write c program to find the average of elements in an array?
+// write c program to find average of N number entered by the user using an arrary?
 
+
+int main (){
+
+    int arr[100];
+    int n;
+    for
+}
 
 
 
