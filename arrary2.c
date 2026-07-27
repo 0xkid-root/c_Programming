@@ -40,14 +40,53 @@
 // arr[1]=20
 
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main(){
+// int main(){
 
-    int marks[5]={40,30,70,80,90};
-    printf("%d",marks[7]);
-    return 0;
-}
+//     int marks[5]={40,30,70,80,90};
+//     printf("%d",marks[7]);
+//     return 0;
+// }
 
 // array length = n = 5 
 // last index = n-1 = 5-1 = 4 
+
+#include <stdio.h>
+
+// first five value ask then five  valeue print kare 
+
+
+int main(){
+
+    int marks[5];
+    printf("Enter 5 Makrs!!");
+
+    for(int a = 0;a<5;a++){
+        scanf("%d",&marks[a]);
+    }
+
+    for(int a = 0;a<5;a++){
+        printf("marks is print: %d\n",marks[a]);
+    }
+
+    return 0;
+
+}
+
+arrary initialization :-
+
+int marks[]= {34,45,67,87,89};
+int makrs[6]= {12,23,34,45,45,56};
+int marks[10];
+
+
+
+
+input and output -----
+
+scanf("%d\n",&marks[0])
+
+printf("%d\n",marks[0])
+
+
