@@ -292,5 +292,222 @@ printf("largest number = %d",largest);
 
 
 
+input int arr[5] = {10,40,20,50,30};
+
+firstLargetNumber : 50
+secondLaregtNumber = 40;
+
+current arrary :- 0, 1,2,3,4, 
+
+int firstlargestNumber = arr[0]; == 10 
+int secondLargestNumber = arr[0]; == 10 
+
+current NUmber = 40
+
+currentNUmber > firstLargestNumber{
+    firstLargestNumber = currentNUmber;
+}
+
+40 > 10 --> yes
+
+largestFirstNumber = 40;
+secondLaregtNumber = 10;
+
+currentNumber = 20 ;
+
+20 >  40 no 
+
+currentNumber > secondLargestNumber
+20 > 10 --> yes 
+
+secondLaregtNumber = 20 
+
+firstLargetNumber = 40 
+secondLaregtNumber = 20
+
+step 4 -------------------------------
+current Valyue = 50 
+currentValue > firstLargestNumber
+
+50 > 40 ---> yes 
+update firstLargestNumber = 50 ;
+secondLargestNumber = 40 ;
+
+
+step 5 --------------------------------
+
+current Value ---> 
+
+currentValue > firstLargestNumber
+30 > 50 ----> no 
+
+currentValue> secondLaregtNumber
+30 > 40 --- no 
+
+final anaswer firstLargestNumber = 50 
+secondLaregtNumber =  40 
+
+
+step ----
+10  =====> firstLargestNumber, secondLaregtNumber ===> 10  (initiaal values )
+
+step 1
+40 ======> firstLargestvalue  == 40 , secondLaregtNumber === 10  (40 becomes the new largest )
+
+step 2
+20 ======> firstLargestvalue  == 40 , secondLaregtNumber === 10  (20 is not larger than 40, but 20 is larger than 10, so secondLargest becomes 20)`
+
+step 3
+
+
+50 ==== > i firstLargestNumber == 50 , secondLaregtNumber == 40
+
+step 4
+
+30 ====> 
+
+
+
+int main(){
+
+    int arr[5] = {10,40,20,50,30};
+
+    int largest = arr[0]; //  ==>40 
+    int secondLargest = arr[0]; //===> 10 
+
+    for(int i=1;i<5;i++){
+
+        if(arr[i]>largest){ 
+            secondLargest = largest; 
+            largest = arr[i]; 
+        }
+        else if(arr[i]> secondLargest){  
+            secondLargest = arr[i]; 
+        }
+    }
+
+    printf("first Largest Number = %d\n",largest);
+    printf("secoond laregst number = %d",secondLargest);
+
+}
+
+
+
+what  a memory ?
+
+examples :- int a =10 ;
+            int b =20 ;
+
+            value  :- 10 , 20
+            address :- 100 , 104
+
+
+
+            //////////////// start ----------------
+
+int arr[5] = {10,20,30,40,50};
+
+arr == &arr[0];
+
+arr = array name ;
+arr = address of first element;
+
+arr[0] = value = 10; address = 100;
+arr[1] = value = 20; address = 104;
+arr[2] = value = 30; address = 108;
+arr[3] = value = 40; address = 112;
+arr[4] = value = 50; address = 116;
+
+arr == address of first element;
+&arr[0] == address of first element;
+arr = pointer 
+
+normal varibale ====> value  store ; int a = 5
+pointer variable ===> address store ; int *p = &a
+
+Real life examples:- 
+
+int a = 10;
+int *ptr = &a;
+
+ptr ===> variable name , int data_types ;
+
+ * ===> pointer ke value ko access 
+& ===> address ko batata 
+
+// connect arrary and pointer 
+
+int arr[5] = {10,20,40,50,80};
+arr[0] value = 10; address = 1000;
+arr[1] value = 20 address = 1004;
+arr[2] value = 40 address = 1008;
+--
+--
+--
+
+
+
+int *ptr = arr;
+
+ptr ==> output ? 1000
+
+arr ==> output  ? 1000
+
+*ptr =  
+
+
+//===============arrary -------
+
+int arr[5] ={10,20,30,40,50};
+
+arr[0]= 10 address == 1004
+arr[1]= 20; address == 1008
+arr[2]= 30; address == 1012
+arr[3]= 40; addrres == 1016
+arr[4]= 50; address = 1020
+
+/// pointer 
+int *ptr = arr;
+ptr = address ==> 1004
+
+(ptr + 1)  ==> incrase 4 bytes  data_int => 4 bytes (1004 + 1*4)=> 1008 == 1005 ===> 
+
+(ptr+2) ==> 1004 + 2*4 == 1004 + 8 ===> 1012;
+
+ptr + 1 = 1008
+
+current address + 1* size of data_type 
+
+1004 + 1 * 4 === > 1004 + 4 = 1008 
+
+(ptr + 1)  == output address of second elemens;
+(ptr+ 2) == output address of third element;
+
+*(ptr + 2)===> value 
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+
+
+
+
+
+
+ 
+
 
 
